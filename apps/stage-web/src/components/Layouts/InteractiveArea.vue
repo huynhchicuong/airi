@@ -20,6 +20,7 @@ const isComposing = ref(false)
 
 const providersStore = useProvidersStore()
 const { activeProvider, activeModel } = storeToRefs(useConsciousnessStore())
+// const { activeSpeechProvider, activeSpeechModel, activeSpeechVoice } = storeToRefs(useSpeechStore())
 const { themeColorsHueDynamic } = storeToRefs(useSettings())
 
 const { askPermission } = useSettingsAudioDevice()
